@@ -1,0 +1,1 @@
+The README file was updated to include a brief description about tourism in India, as requested. The addition highlights India's rich cultural heritage and diverse landscapes, making it a prominent tourist destination. You can verify the fix by checking the updated README file.
