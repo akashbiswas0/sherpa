@@ -1,0 +1,1 @@
+Replaced the content of the README.md file with new information about treks in Uttarakhand, India, and removed the old README content as requested.
