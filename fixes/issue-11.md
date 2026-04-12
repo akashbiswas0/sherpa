@@ -1,0 +1,1 @@
+The README file content was completely replaced with new information about Delhi tourism, as requested in the issue. To verify the fix, check that the README only contains the new text about Delhi tourism.
