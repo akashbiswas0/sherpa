@@ -1,0 +1,1 @@
+Added 40 words about travel to the README.md file to enhance the documentation and provide additional context for users. This can be verified by checking the contents of the README.md for the new travel section.
