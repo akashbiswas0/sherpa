@@ -1,0 +1,1 @@
+The README file did not contain current information about Uttarakhand's situation, including weather and road conditions. I added a new section with this relevant information in four lines to keep users informed.
