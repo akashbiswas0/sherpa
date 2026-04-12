@@ -1,0 +1,1 @@
+A README file has been added for a tour guide in Uttarakhand, India. The content includes basic information about the region, popular destinations, activities, and travel tips. To verify the fix, please check the newly created README.md for accuracy and completeness.
