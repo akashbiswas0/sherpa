@@ -1,0 +1,1 @@
+The README file was updated to include a 50-word description about travel in India, highlighting its diverse culture, historical landmarks, and scenic beauty. The addition enhances the documentation by providing potential travelers with insights into the country's rich offerings.
