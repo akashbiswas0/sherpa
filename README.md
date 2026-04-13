@@ -1,3 +1,12 @@
-# Current Situation in Uttarakhand
+# Project Title
 
-As of now, Uttarakhand is experiencing clear skies with mild temperatures. The roads are mostly accessible, although some areas may have slight disruptions due to ongoing maintenance. Travelers are advised to stay updated on local alerts for any changes in the road status.
+## Description
+
+This project is aimed at...
+
+## Snowfall Season
+- The snowfall season typically occurs from December to February.
+- It brings a significant amount of snowfall, which affects travel and outdoor activities.
+- Snowfall can create beautiful sceneries but requires caution while traveling.
+- Proper gear and planning are essential for enjoying the winter season safely.
+- Always check local forecasts and travel advisories during this time.
