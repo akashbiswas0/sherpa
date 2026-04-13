@@ -1,13 +1,11 @@
 "use client";
 
-import { useConvexAuth } from "convex/react";
-
 export function useAuth() {
-  const { isAuthenticated, isLoading } = useConvexAuth();
+  // Auth not yet configured — stubs keep the app functional
+  const isAuthenticated = false;
+  const isLoading = false;
 
   async function loginWithGoogle() {
-    // Convex Auth Google sign-in — requires @convex-dev/auth setup
-    // Run: npm install @convex-dev/auth and configure Google provider
     console.warn("Google OAuth not yet configured. Run: npm install @convex-dev/auth");
   }
 

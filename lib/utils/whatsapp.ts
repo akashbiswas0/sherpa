@@ -9,6 +9,9 @@ interface WhatsAppParams {
 export function buildWhatsAppUrl(params: WhatsAppParams): string {
   const { phone, trekName, groupSize, dates } = params;
 
+  // Strip spaces/dashes so wa.me gets a clean number e.g. +919410010001
+  const cleanPhone = phone.replace(/[\s\-()]/g, "");
+
   const message = [
     "Hi! I found you on TrekMapper.",
     trekName  ? `I'm interested in the *${trekName}* trek.` : "",
@@ -19,5 +22,5 @@ export function buildWhatsAppUrl(params: WhatsAppParams): string {
     .filter(Boolean)
     .join(" ");
 
-  return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
 }

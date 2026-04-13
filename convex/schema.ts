@@ -28,6 +28,7 @@ export default defineSchema({
     googleRating: v.number(),
     googleReviewCount: v.number(),
     instagramHandle: v.optional(v.string()),
+    googleMapsUrl: v.optional(v.string()),
     isVerified: v.boolean(),
     trustScore: v.number(),
     trustScoreBreakdown: v.object({

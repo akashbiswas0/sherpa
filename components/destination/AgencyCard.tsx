@@ -12,6 +12,8 @@ interface AgencyCardProps {
   specialities: string[];
   isVerified: boolean;
   whatsappNumber: string;
+  address?: string;
+  googleMapsUrl?: string;
   onSelect: (id: string) => void;
   onCompareToggle: (id: string) => void;
   isInCompare: boolean;
@@ -24,6 +26,8 @@ export function AgencyCard({
   priceFrom,
   specialities,
   isVerified,
+  address,
+  googleMapsUrl,
   onSelect,
   onCompareToggle,
   isInCompare,
@@ -58,6 +62,24 @@ export function AgencyCard({
           <Badge key={s} label={s} variant="gray" />
         ))}
       </div>
+
+      {address && (
+        <p className="text-xs text-gray-500 truncate" title={address}>
+          📍{" "}
+          {googleMapsUrl ? (
+            <a
+              href={googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-green-700 underline"
+            >
+              {address}
+            </a>
+          ) : (
+            address
+          )}
+        </p>
+      )}
 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <span className="text-sm font-medium text-green-700">

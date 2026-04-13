@@ -13,6 +13,7 @@ import type * as destinations from "../destinations.js";
 import type * as guides from "../guides.js";
 import type * as inquiries from "../inquiries.js";
 import type * as seed from "../seed.js";
+import type * as syncRatings from "../syncRatings.js";
 import type * as treks from "../treks.js";
 
 import type {
@@ -27,6 +28,7 @@ declare const fullApi: ApiFromModules<{
   guides: typeof guides;
   inquiries: typeof inquiries;
   seed: typeof seed;
+  syncRatings: typeof syncRatings;
   treks: typeof treks;
 }>;
 

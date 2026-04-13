@@ -15,6 +15,26 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "imgs.search.brave.com",
+      },
+      {
+        protocol: "https",
+        hostname: "t3.ftcdn.net",
+      },
+      {
+        protocol: "https",
+        hostname: "media.gettyimages.com",
+      },
+      {
+        protocol: "https",
+        hostname: "preview.redd.it",
+      },
+      {
+        protocol: "https",
+        hostname: "hblimg.mmtcdn.com",
+      },
     ],
   },
 };

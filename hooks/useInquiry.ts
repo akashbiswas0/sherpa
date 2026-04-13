@@ -26,11 +26,7 @@ export function useInquiry(options: UseInquiryOptions) {
   const [showInquiryForm, setShowInquiryForm] = useState(false);
 
   function handleConnectClick() {
-    if (!isAuthenticated) {
-      setShowLoginModal(true);
-    } else {
-      setShowInquiryForm(true);
-    }
+    setShowInquiryForm(true);
   }
 
   function handleLoginSuccess() {

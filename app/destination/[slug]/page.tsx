@@ -77,6 +77,8 @@ export default function DestinationPage({ params }: PageProps) {
                   specialities={agency.specialities}
                   isVerified={agency.isVerified}
                   whatsappNumber={agency.whatsappNumber}
+                  address={agency.address}
+                  googleMapsUrl={agency.googleMapsUrl}
                   onSelect={(id) => router.push(`/agency/${id}`)}
                   onCompareToggle={toggle}
                   isInCompare={isSelected(agency._id)}
