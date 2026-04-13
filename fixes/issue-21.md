@@ -1,0 +1,1 @@
+I added a tech stack description to the README.md file, outlining the technologies used in the sherpa repository to address the documentation request.
